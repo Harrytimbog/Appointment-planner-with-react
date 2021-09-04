@@ -56,7 +56,7 @@ export const ContactsPage = ({ contacts, addContact }) => {
           Add Contact
           {duplicate ? " - Name Already Exists" : ""}
         </h2>
-        <contactForm
+        <ContactForm
           name={name}
           setName={setName}
           phone={phone}
