@@ -37,9 +37,9 @@ export const AppointmentsPage = ({ appointments, contacts, addAppointment }) => 
           setTitle={setTitle}
           contact={contact}
           setContact={setContact}
-          date={setDate}
+          date={date}
           setDate={setDate}
-          time={setTime}
+          time={time}
           setTime={setTime}
           handleSubmit={handleSubmit}
         />
