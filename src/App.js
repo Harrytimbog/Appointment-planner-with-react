@@ -22,7 +22,7 @@ function App() {
   contacts and appointments
   */
 
-  addContact(name, phone, email) {
+  const addContact = (name, phone, email) => {
     const newContact = {
       name,
       phone,
@@ -33,10 +33,10 @@ function App() {
 
   };
 
-  addAppointment(title, contact, date, time) {
+  const addAppointment = (title, contact, date, time) => {
     const newAppointment = {
       title,
-      phone,
+      contact,
       date,
       time
     };

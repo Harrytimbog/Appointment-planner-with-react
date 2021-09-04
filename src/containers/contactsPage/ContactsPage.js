@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
 
+import { ContactForm } from "../../components/contactForm";
+import { TileList } from "../../components/tileList";
+
 export const ContactsPage = ({ contacts, addContact }) => {
   /*
   Define state variables for
